@@ -1,0 +1,87 @@
+/* Styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center; /* Hide horizontal scrollbar */
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    color: #555;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  /* Battery level span styles */
+  #batteryLevel {
+    font-weight: bold;
+  }
+  
+  /* Battery status span styles */
+  #batteryStatus {
+    font-style: italic;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Apply a border radius on hover */
+  button:hover {
+    border-radius: 15px;
+  }
+  
+  /* Animation for button click */
+  @keyframes buttonClickAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  button:active {
+    animation: buttonClickAnimation 0.3s;
+  }
+  
+  /* Scroll behavior for the entire page */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Padding for the container */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Margin for the container */
+  .container {
+    margin: 20px;
+  }
+  
